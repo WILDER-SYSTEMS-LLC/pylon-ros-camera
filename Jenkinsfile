@@ -4,8 +4,7 @@ node {
     ]
 
     deps = [
-        'ros-humble-diagnostic-updater',
-        'ros-humble-pcl-ros',
+        'pylon'
     ]
     registerColcon('ros2-env', reqs, deps, true)
 }
